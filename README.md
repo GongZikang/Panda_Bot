@@ -20,6 +20,8 @@
 
 ## 功能说明
 ### 1.saucenao识图功能 【本功能默认关闭】
+此功能需要额外安装saucenao_api<br />
+可用pip install -U saucenao_api指令安装
 #### 指令：
 识图+空格+需要识别的图片<br />
 或者发送识图后，机器人说明等待接收图片后再发送需要识别的图片。<br />
@@ -33,6 +35,7 @@
 打开https://saucenao.com/user.php?page=search-api<br />
 找到api key一行，把后面的一串字符填入seachpic.py中的sauce_api = ""双引号之中<br />
 本功能默认关闭，请在需要打开本功能的群内发送开启+空格+识图
+
 
 ### 2.搜索动漫图片
 #### 指令：
